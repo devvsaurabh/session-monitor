@@ -2,7 +2,7 @@
 
 - Access all records using : /api/users/
 
-- Access particular record using: /api/users/id
+- Access particular record using: /api/userdata/id
 
 - Delete particular record using : /api/delete/id
 

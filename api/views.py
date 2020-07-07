@@ -52,7 +52,7 @@ def userdata(request,c_id):
         output_dict[0].update(activity_p)
         return JsonResponse(output_dict[0])
     except ValueError as e:
-        return Response(e.args[0],status.HTTP_400_BAD_REQUEST)
+        return JsonResponse({'message':'Invalid UserId'})
 
 
 @api_view(['GET'])

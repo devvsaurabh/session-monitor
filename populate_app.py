@@ -1,3 +1,5 @@
+# Populate the database by genrating fake data using Faker library
+
 import os
 os.environ.setdefault('DJANGO_SETTINGS_MODULE','UserActivity.settings')
 
